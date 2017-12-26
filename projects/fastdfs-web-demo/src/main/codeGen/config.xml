@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<generator>
+	<config>
+		<property name="jdbc.type" value="mysql"/>
+		<property name="jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		<property name="jdbc.url" value="jdbc:mysql://192.168.0.122:3306/shzwy_bs?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull"/>
+		<property name="jdbc.username" value="shzwy_bs"/>
+		<property name="jdbc.password" value="z6eh_8n2q_9yhr
+"/>
+
+		<!-- 模板目录 -->
+		<!-- <property name="templateDir" value="D:/dev/src/git/spring/WebGenerator/src/main/resources/freemarker/"/> -->
+		<!-- 输出目录 -->
+		<property name="relativeOutputDir" value="src/test/java/"/>
+
+		<property name="domain" value="com.szwcyq.ggw.shzwy.platform.entity"/>
+		<property name="form" value="com.szwcyq.ggw.shzwy.platform.form"/>
+
+		<property name="javaMapper" value="com.szwcyq.ggw.shzwy.platform.dao"/>
+		<property name="xmlMapper" value="spring.mybatis.mapper"/>
+		<property name="service" value="com.szwcyq.ggw.shzwy.platform.service"/>
+		<property name="serviceImpl" value="com.szwcyq.ggw.shzwy.platform.service.impl"/>
+		<property name="controller" value="com.szwcyq.ggw.shzwy.platform.web"/>
+	</config>
+	<tables>
+		<!--<table table="mi_demo_role" domain="DemoRole1"/>-->
+
+	</tables>
+</generator>
